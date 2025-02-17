@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plots>
+  <plot basis="xz" color_by="material" filename="poloidal_plane" id="1" type="slice">
+    <pixels>2600 1400</pixels>
+    <origin>0 0 0</origin>
+    <width>1300 700</width>
+    <color id="2" rgb="36 36 36"/>
+    <color id="12" rgb="82 255 209"/>
+    <color id="15" rgb="140 140 140"/>
+    <color id="16" rgb="140 140 140"/>
+    <color id="17" rgb="140 140 140"/>
+  </plot>
+  <plot basis="xy" color_by="material" filename="toroidal_plane" id="2" type="slice">
+    <pixels>2000 2000</pixels>
+    <origin>0 0 0</origin>
+    <width>1300 1300</width>
+    <color id="2" rgb="36 36 36"/>
+    <color id="12" rgb="82 255 209"/>
+    <color id="15" rgb="140 140 140"/>
+    <color id="16" rgb="140 140 140"/>
+    <color id="17" rgb="140 140 140"/>
+  </plot>
+</plots>

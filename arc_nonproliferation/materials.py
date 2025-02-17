@@ -20,7 +20,7 @@ air.add_element("Ar", 0.004671, percent_type="ao")
 air.set_density("g/cm3", 0.001205)
 
 """ TUNGSTEN """
-tungsten = openmc.Material(name='W')
+tungsten = openmc.Material(name='W') #can add the material id. material_id = 12
 tungsten.add_element('O',5/1e6,percent_type='wo')
 tungsten.add_element('N',5/1e6,percent_type='wo')
 tungsten.add_element('C',5/1e6,percent_type='wo')

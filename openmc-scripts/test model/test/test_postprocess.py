@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 
-sp = openmc.StatePoint('run_1/statepoint.10.h5')
+sp = openmc.StatePoint('awhitesides3/openmc/build/bin/fusion/FLIBE/openmc-scripts/test\ model/test_depletion/run_1/statepoint.10.h5')
 mesh_tally = sp.get_tally(name='Mesh Tally')
 U_mesh_tally = sp.get_tally(name='Uranium Mesh Tally')
 

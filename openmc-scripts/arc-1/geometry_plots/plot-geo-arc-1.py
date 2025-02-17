@@ -30,9 +30,9 @@ poloidal_plot.pixels = (width*2, height*2)
 poloidal_plot.color_by = 'material'
 poloidal_plot.colors = {
     anp.tungsten: (36, 36, 36),
-    anp.vcrti_VV: (140, 140, 140),
-    anp.vcrti_BI: (140, 140, 140),
-    anp.vcrti_BO: (140, 140, 140),
+    device.vcrti_VV: (140, 140, 140),
+    device.vcrti_BI: (140, 140, 140),
+    device.vcrti_BO: (140, 140, 140),
     device.doped_flibe: (82, 255, 209),
 }
 
@@ -45,9 +45,9 @@ toroidal_plot.pixels = (2000, 2000)
 toroidal_plot.color_by = 'material'
 toroidal_plot.colors = {
     anp.tungsten: (36, 36, 36),
-    anp.vcrti_VV: (140, 140, 140),
-    anp.vcrti_BI: (140, 140, 140),
-    anp.vcrti_BO: (140, 140, 140),
+    device.vcrti_VV: (140, 140, 140),
+    device.vcrti_BI: (140, 140, 140),
+    device.vcrti_BO: (140, 140, 140),
     device.doped_flibe: (82, 255, 209),
 }
 
